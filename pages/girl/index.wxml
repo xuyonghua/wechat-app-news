@@ -1,0 +1,16 @@
+<view class="content">
+      <view class="left">
+        <block wx:for="{{datalist}}" wx:key=""wx:if="{{index%2==0}}">
+          <view class='card'>
+          <image class="item-img" src="{{item.url}}" mode="widthFix" data-src='{{item.url}}' bindtap='previewImage'></image>
+        </view>
+        </block>
+      </view>
+      <view class="right">
+        <block wx:for="{{datalist}}" wx:key="" wx:if="{{index%2==1}}">
+        <view class='card'>
+          <image class="item-img" src="{{item.url}}" mode="widthFix" data-src='{{item.url}}' bindtap='previewImage'></image>
+        </view>
+        </block>
+      </view>
+    </view>

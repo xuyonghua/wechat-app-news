@@ -1,0 +1,4 @@
+<view class="container">
+    <text class="start" bindtap='goHomePage'>{{text}}</text>
+    <image class="splash" src="/image/screen.png"></image>
+</view>

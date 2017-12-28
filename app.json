@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/splash/index",
+    "pages/index/index",
+    "pages/video/index",
+    "pages/girl/index",
+    "pages/answer/answer"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#298DE5",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#626567",
+    "selectedColor": "#2A8CE5",
+    "backgroundColor": "#FBFBFB",
+    "borderStyle": "white",
+    "box-shadow": "0 0 6px 0",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/nav/index-off.png",
+        "selectedIconPath":"image/nav/index-on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/video/index",
+        "iconPath": "image/nav/video-off.png",
+        "selectedIconPath": "image/nav/video-on.png",
+        "text": "视频"
+      },
+      {
+        "pagePath": "pages/girl/index",
+        "iconPath": "image/nav/girl-off.png",
+        "selectedIconPath": "image/nav/girl-on.png",
+        "text": "妹子"
+      }
+    ]
+  }
+}

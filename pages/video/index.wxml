@@ -1,0 +1,18 @@
+<!--index.wxml-->
+
+<view class="container">
+  <block wx:for="{{video}}" wx:key="">
+    <view class="video-item">
+      <!-- <view class="feed-source">
+            <text>{{item.feed_source_name}}</text>
+        </view> -->
+      <video id="myVideo" poster='{{item.cover}}' src='{{item.mp4Hd_url}}' objectFit='cover' muted='true' enable-danmu danmu-btn controls>
+        <cover-view class="title">{{item.title}}</cover-view>
+      </video>
+    </view>
+  </block>
+  <view class="loadmore" hidden="{{isHideLoadMore}}">
+    <view class="loading"></view>
+    <view class="loadmore__tips">正在加载</view>
+  </view>
+</view>

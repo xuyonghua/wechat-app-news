@@ -1,0 +1,59 @@
+<!--answer.wxml-->
+<view class="container">
+    <view class="question">
+        <text class="question-title">{{detail.title}}</text>
+    </view>
+    <view class="answerer-wrp">
+        <view class="bg-half"></view>
+        <view class="answerer flex-wrp">
+            <view class="avatar flex-item">
+                <image src="{{userInfo.avatarUrl}}"></image>
+            </view>
+            <view class="answerer-info flex-item">
+                <text class="answerer-name">{{userInfo.nickName}}</text>
+                <text class="answerer-des">生活不只是眼前的苟且，还有诗和远方。</text>
+            </view>
+            <view class="follow flex-item">
+                <text>十 关注</text>
+            </view>
+        </view>
+    </view>
+    <view class="answer-content">
+        <text wx:if='{{detail.digest!=""}}'>{{detail.digest}}</text>
+        <image src="{{detail.imgsrc}}" mode='aspectFit'></image>   
+    </view>
+
+    <view class="answer-footer flex-wrp">
+        <view class="good flex-item">
+            <view class="good-bad">
+                <image src="../../image/good-bad.png"></image>
+            </view>
+            <view class="good-num">{{detail.votecount}}</view>
+        </view>
+        <view class="operation-wrp flex-item">
+            <view class="operation flex-wrp flex-tab">
+                <view class="operation-btn flex-item">
+                    <image src="../../image/flag.png"></image>
+                    <text>没有帮助</text>
+                </view>
+                <view class="operation-btn flex-item">
+                    <image src="../../image/heart2.png"></image>
+                    <text>感谢</text>
+                </view>
+                <view class="operation-btn flex-item">
+                    <image src="../../image/star2.png"></image>
+                    <text>收藏</text>
+                </view>
+                <view class="operation-btn flex-item">
+                    <image src="../../image/comment.png"></image>
+                    <text>{{detail.replyCount}}</text>
+                </view>
+
+            </view>
+        </view>
+
+
+
+    </view>
+</view>
+
