@@ -5,7 +5,7 @@ A wechat app include news，videos and beautiful girls。
 ![image](https://github.com/xuyonghua/wechat-app-news/blob/master/screenshots/Screenshot_头条.jpg?raw=true)
 ![image](https://github.com/xuyonghua/wechat-app-news/blob/master/screenshots/Screenshot_社会.jpg?raw=true)
 ![image](https://github.com/xuyonghua/wechat-app-news/blob/master/screenshots/Screenshot_detail.jpg?raw=true)
-![image](https://github.com/xuyonghua/wechat-app-news/blob/master/screenshots/Screenshot_video?raw=true)
+![image](https://github.com/xuyonghua/wechat-app-news/blob/master/screenshots/Screenshot_video.jpg?raw=true)
 ![image](https://github.com/xuyonghua/wechat-app-news/blob/master/screenshots/Screenshot_girl.jpg?raw=true)
 
 ### 使用api
